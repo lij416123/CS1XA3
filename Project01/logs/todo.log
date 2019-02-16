@@ -1,0 +1,2 @@
+Project01/project_analyze.sh:    grep -r --exclude="todo.log" "#TODO" > ./Project01/logs/todo.log
+Project01/README.md:	use grep to find files with "#TODO", and use > to create/overwrite the file todo.log
