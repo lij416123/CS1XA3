@@ -11,6 +11,18 @@
               6 represents feature 5.6 )
 
 
+1. Custom feature
+ 
+	a personality test using user input
+	
+	input y to start the test , input n to quit
+
+	input your answer --a letter
+
+	then the personality description matching your answer echo
+
+
+
 5.2 create a TODO Log
 
         use grep to find files with "#TODO", and use > to create/overwrite the file todo.log

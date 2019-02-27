@@ -19,6 +19,47 @@ if [ $# -eq 0 ] ; then
 
 
 else
+  if [ $@ == 1 ] ; then
+    read -p "Would you like to have a small personality test?(y/n) " var
+    if [[ $var == n ]] ; then
+      echo ok bye
+    else
+      echo What do you usually do when you are eating fries? Please enter a letter.
+      echo a  Without sauces
+      echo b  Squeeze the sauces in another clean container and eat fries with the sauces
+      echo c  Squeeze all the sauces in the container with fries
+      echo d  Carefully squeeze the sauces on each fries when eating
+
+      read var0
+      if [[ $var0 == a ]] ; then
+        echo You are such a lovely and innocent angel!
+        echo You are still living in a dreamy and peaceful world just like the world in fairy stories. Its good that you still keep the innocence of a child.
+        echo But isnt it not good that you are like a child who will never grow up?
+        echo You are very smart. But you are very eary to be satisfied with your life.
+      fi
+      if [[ $var0 == b ]] ; then
+        echo You are a phlegmatic and taciturn person!
+        echo You always keep calm and being methodical and prudent.
+        echo You always have sense of responsibility. And you can always perfectly finish the work the boss gives you.
+        echo However, be careful, dont be too indecisive.
+      fi
+      if [[ $var0 == c ]] ; then
+        echo You are a gentle and conservative person!
+        echo You are very ambitious. However you care too much about other peoples opinions,
+        echo which makes you hesitant all the time.
+      fi
+      if [[ $var0 == d ]] ; then
+        echo You are a romantic poet!
+        echo You are passionate and warm-hearted. However you are too emotional sometimes,
+        echo which makes you easily be deceived. And once you get into pain, its hard for you overcome it.
+      fi
+    fi
+  fi
+# This is my custom feature
+# a personality test 
+
+
+
   if [ $@ == 2 ] ; then
     grep -r --exclude="todo.log" "#TODO" > ./Project01/logs/todo.log
   fi
