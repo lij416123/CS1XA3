@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 if [ -e "~/CS1XA3/Project01/logs" ] ; then
@@ -56,8 +57,7 @@ else
     fi
   fi
 # This is my custom feature
-# a personality test 
-
+# a personality test
 
 
   if [ $@ == 2 ] ; then
