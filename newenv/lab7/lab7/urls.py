@@ -17,5 +17,5 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
-    path('e/lij416/', include('lab7app.urls')),
+    path('e/lij416/lab7/', include('lab7app.urls')),
 ]
