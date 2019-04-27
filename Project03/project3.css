@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body {
+    background-color: bisque;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+
+#wrap{
+    width:300px;
+    overflow:hidden;
+    position:absolute;
+    left:50%;top:10px;
+    margin-left:-240px;
+    background:white;
+}
+#wrap div{
+    float:left;
+    width:28px;
+    height:28px;
+    border:1px solid black;
+}
+#wrap div.red{
+    background:red;
+}
+#wrap div.finished{
+    background:#666;
+}
+#next{
+    width:300px;
+    height:180px;
+    position:absolute;
+    left:50%;
+    top:10px;
+    margin-left:80px;
+    border:1px solid black;
+    background:white;
+}
+#next h1{
+    font-size:24px;
+    height:30px;
+    line-height:30px;
+}
+#next ol li{
+    width:30px;
+    height:30px;
+    float:left;
+}
+#next ol li.pink{
+    background:pink;
+    width:28px;
+    height:28px;
+    border:1px solid black;
+}
+#infor{
+    width:300px;
+    height:150px;
+    position:absolute;
+    left:50%;
+    top:200px;
+    margin-left:80px;
+    border:1px solid black;
+    background:white;
+}
+#infor li{
+    height:50px;
+    padding-left:10px;
+    line-height:50px;
+}
+#operate{
+    width:300px;
+    height:150px;
+    position:absolute;
+    left:50%;
+    top:370px;
+    margin-left:80px;
+}
+#operate li{
+    height:50px;
+    line-height:50px;
+    margin-bottom:20px;
+}
+#pause{
+    float:left;
+    height:48px;
+    width:120px;
+    border:1px solid black;
+    cursor:pointer;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+#restart{
+    position:absolute;
+    left:30px;
+    top:90px;
+    height:48px;
+    width:100px;
+    border:1px solid black;
+    cursor:pointer;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+#alert{
+    width:298px;
+    height:148px;
+    background:white;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-75px;
+    border:1px solid black;
+    display:none;
+}
+#alert p{
+    height:30px;
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+#surrender{
+    position:absolute;
+    left:180px;
+    top:90px;
+    height:48px;
+    width:100px;
+    border:1px solid black;
+    cursor:pointer;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}

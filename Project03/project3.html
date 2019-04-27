@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tetris</title>
+    <script src="project3.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="project3.css">
+</head>
+<body>
+    <header>
+        <h1>Tetris</h1>
+    </header>
+        <div style="width:960px;margin:20px auto; clear:both; height:620px;">
+            <div id="wrap"></div>
+            <div id="next">
+                <h1>Next shape</h1>
+                <ol></ol>
+            </div>
+            <ul id="infor">
+                <li>Level<span id="level">1</span></li>
+                <li>Time<span id="time"></span></li>
+                <li>Score<span id="score"></span></li>
+            </ul>
+            <ul id="operate">
+                <li><input type="button"id="pause"value="Pause"/></li>
+            </ul>
+            <div id="alert">
+                <p>Game over! Restart?</p>
+                <input type="button"id="restart"value="Yes"/>
+                <input type="button"id="surrender"value="No"/>
+            </div>
+        </div>
+   
+</body>
+</html>
