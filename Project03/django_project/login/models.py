@@ -7,4 +7,6 @@ class User(models.Model):
         return self.name
     class Meta:
         ordering = ['c_time']
+	verbose_name = 'user'
+	verbose_name_plural = 'user'
 # Create your models here.
